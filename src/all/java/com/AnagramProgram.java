@@ -22,7 +22,8 @@ public class AnagramProgram {
 		isAnagram("Toss", "Shot");
 
 		isAnagram("joy", "enjoy");
-		isAnagram("Murthy", "Murthy");
+		
+		isAnagram("Murcthy", "Murthy");
 
 	}
 
