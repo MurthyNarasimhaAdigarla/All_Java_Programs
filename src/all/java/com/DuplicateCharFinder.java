@@ -33,6 +33,6 @@ public class DuplicateCharFinder {
 		
 		findIt("MMUURTTHHHYY");
 		System.out.println("2nd time");
-		findIt("MMUURTTHHHYYyii");
+		findIt("MMUURrrrrrTTHHHYYyii");
 	}
 }

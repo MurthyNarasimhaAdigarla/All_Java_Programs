@@ -19,7 +19,7 @@ public class AnagramProgram {
 
 		isAnagram("ASTRONOMERS", "NO MORE STARS");
 
-		isAnagram("Toss", "Shot");
+		isAnagram("Toss", "Ssot");
 
 		isAnagram("joy", "enjoy");
 		

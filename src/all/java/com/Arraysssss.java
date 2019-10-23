@@ -11,6 +11,7 @@ public class Arraysssss {
 		a[2] = 3;
 		a[3] = 5;
 		a[4] = 53;
+		System.out.println(a);
 
 		try {
 			System.out.println(a[3]);

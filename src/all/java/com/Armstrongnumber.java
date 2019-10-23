@@ -13,9 +13,9 @@ public class Armstrongnumber {
 		no = s.nextInt();
 		int d = no;
 
-		while (no > 0) {
+		while (no > 0) {                  
 			a = no % 10; // 1
-			no = no / 10; // 37
+			no = no / 10; // 37  
 
 			arm = arm + a * a * a;
 		}
