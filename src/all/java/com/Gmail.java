@@ -1,3 +1,4 @@
+/*
 package all.java.com;
 
 import java.util.Properties;
@@ -66,4 +67,4 @@ public class Gmail {
 		transport.close();
 		System.out.println("Email sent successfully.");
 	}
-}
+}*/
