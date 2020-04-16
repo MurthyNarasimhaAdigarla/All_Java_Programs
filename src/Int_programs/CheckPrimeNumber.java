@@ -1,4 +1,4 @@
-package Prac2;
+package Int_programs;
 
 import java.util.Scanner;
 

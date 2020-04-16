@@ -1,4 +1,4 @@
-package Prac;
+package String_Programs;
 
 public class CountCharacter {
     public static void main(String[] args) {
