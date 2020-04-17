@@ -4,23 +4,44 @@ import java.util.Scanner;
 
 public class Swap2Numbers {
 
-	public static void main(String[] args) {
+    static int a, b, c;
 
-		int a, b, c;
 
-		Scanner s = new Scanner(System.in);
-		System.out.println("Enter any 2 Values ");
-		a = s.nextInt();
-		b = s.nextInt();
-		System.out.println("After Swaping");
+    public static void main(String[] args) {
 
-		c = a;
-		a = b;
-		b = c;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter any 2 Values ");
+        a = s.nextInt();
+        b = s.nextInt();
+        System.out.println("After Swaping");
+
+        withTempVariable();
+        withoutTempVariable();
+
+
+    }
+
+
+    public static void withTempVariable() {
+    	c = a;
+        a = b;
+        b = c;
+
+        System.out.println(a);
+        System.out.println(b);
+
+    }
+
+    public static void withoutTempVariable() {
+
+        a = a + b - b;
+        b = a - b;
 
 		System.out.println(a);
 		System.out.println(b);
 
-	}	
+    }
+
 
 }
+
