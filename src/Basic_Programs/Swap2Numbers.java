@@ -15,7 +15,7 @@ public class Swap2Numbers {
         b = s.nextInt();
         System.out.println("After Swaping");
 
-        withTempVariable();
+      //  withTempVariable();
         withoutTempVariable();
 
 
@@ -34,10 +34,11 @@ public class Swap2Numbers {
 
     public static void withoutTempVariable() {
 
-        a = a + b - b;
-        b = a - b;
+        a = a + b;
+        b= a - b;
+        a = a- b;
 
-		System.out.println(a);
+        System.out.println(a);
 		System.out.println(b);
 
     }

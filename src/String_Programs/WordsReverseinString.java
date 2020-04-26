@@ -19,7 +19,7 @@ public class WordsReverseinString {
         String charReverse = " ";
 
         for (int i = s.length - 1; i >= 0; i--) {
-            charReverse = charReverse + s[i] + "";
+            charReverse = charReverse + s[i] + " ";
         }
         System.out.println(charReverse);
     }
