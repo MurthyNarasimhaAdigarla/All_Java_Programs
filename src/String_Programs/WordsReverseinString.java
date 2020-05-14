@@ -8,13 +8,8 @@ public class WordsReverseinString {
 
         characterReverseInString();
         onlyWordsReverseInString();
-
     }
-
-
     public static void characterReverseInString() {
-
-
         s = "Murthy is good boy".split("");
         String charReverse = " ";
 
@@ -23,8 +18,6 @@ public class WordsReverseinString {
         }
         System.out.println(charReverse);
     }
-
-
     public static void onlyWordsReverseInString() {
 
 

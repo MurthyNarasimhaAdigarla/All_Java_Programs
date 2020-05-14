@@ -1,4 +1,4 @@
-package Basic_Programs;
+package String_Programs;
 
 public class CountofwordsinString {
     public static void main(String args[])
