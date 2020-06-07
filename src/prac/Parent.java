@@ -1,31 +1,39 @@
 package prac;
 
-
-import com.jayway.restassured.RestAssured;
-import com.jayway.restassured.response.Response;
+import java.util.HashSet;
+import java.util.Iterator;
 
 public class Parent {
 
 
-    public static void main(String[] args) throws Throwable {
+    public static void main(String[] args) {
 
-        postCreateDefaultProfileXapiCall();
+        HashSet<String> hs = new HashSet<String>();
+        hs.add("Murthy");
+        hs.add("Narasimha");
+        hs.add("Adigarla");
+        hs.add("Adigarla");
+        hs.add(null);
+        hs.add(null);
 
-    }
 
-    public static void postCreateDefaultProfileXapiCall() throws Throwable {
+       /* System.out.println(hs);
 
-        // https://www.mcom-035.tbe.zeus.fds.com/xapi/digital/v1/product/1310
+        Iterator<String> itr = hs.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }*/
 
-        String baseURI = "https://www.mcom-035.tbe.zeus.fds.com/xapi/digital/v1/product";
+        String[] ss = new String[hs.size()];
+        hs.toArray(ss);
+        for (String sss : ss
+        ) {
+            System.out.println(sss);
 
-        String ccfpService = baseURI + "/1310";
-        Response response = RestAssured.given().header("Content-Type", "application/json")
-                .when().get(ccfpService)
-                .then()
-                .statusCode(200).extract().response();
-        String resp = response.getBody().prettyPrint();
-        System.out.println("Response in String format " + resp);
+        }
+
+     /*   hs.clear();
+        System.out.println("After" + hs);*/
 
 
     }

@@ -4,7 +4,7 @@ public class CountofwordsinString {
     public static void main(String args[])
     {
 
-    String text = "murthy is a good boy ";
+    String text = "murthy is";
     int countWords=0;
 
  for(int i=0; i<text.length()-1; i++)
